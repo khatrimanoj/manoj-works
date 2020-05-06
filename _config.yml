@@ -1,24 +1,27 @@
-title: Stackbit Exto Theme
-baseurl: /
-permalink: '/:title/'
-color_scheme: light
-accent_color: pink
+permalink: /:title/
+color_scheme: dark
+accent_color: blue
 header:
-  title: Exto
+  title: Manoj
   has_nav: true
-footer:
-  content: '&copy; Stackbit-Exto. All rights reserved.'
-  links:
-    - text: Made with Stackbit
-      url: 'https://www.stackbit.com'
-      new_window: true
-  has_social: true
 sass:
   indentWidth: 4
   style: nested
   precision: 10
 plugins:
   - jekyll-menus
+collections:
+  posts:
+    permalink: /posts/:title/
+title: Manoj Work
+baseurl: /
+footer:
+  content: "&2020; Manoj. All rights reserved."
+  links:
+    - text: Made by Manoj
+      url: ""
+      new_window: true
+  has_social: true
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -33,6 +36,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'
