@@ -1,6 +1,6 @@
 permalink: /:title/
 color_scheme: dark
-accent_color: blue
+accent_color: null
 header:
   title: Manoj
   has_nav: true
