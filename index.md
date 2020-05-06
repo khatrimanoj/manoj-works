@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: heroblock
-    title: Hi, I'm Manoj Khatri. <br> I am UI / UX and Front End Developer
+    title: Hi, I'm Manoj Khatri. <br> I am Front End Developer
     section_id: hero
     component: hero_block.html
     content: This section can contain a subtitle or tagline. The recommended length
